@@ -1,0 +1,20 @@
+{
+  "name": "Trollbot",
+  "version": "1.0.0",
+  "description": "Will detect if Twitter accounts have trollish activity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingGenius5/Trollbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KingGenius5/Trollbot/issues"
+  },
+  "homepage": "https://github.com/KingGenius5/Trollbot#readme"
+}
