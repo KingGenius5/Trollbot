@@ -19,3 +19,25 @@ setInterval(function () {
     }
   }
 }, 1000);
+
+(function () {
+  function fnAddButtons() {
+    var btn = document.createElement("input");
+    btn.value = "Fact Check";
+    btn.id = "troll-btn";
+    btn.type = "submit";
+    document
+      .querySelector(
+        "#react-root > div > div > div.css-1dbjc4n.r-18u37iz.r-13qz1uu.r-417010 > main > div > div > div > div > div > div:nth-child(2) > div > section > div > div > div:nth-child(1) > div > div > article > div > div > div > div:nth-child(3) > div:nth-child(4)"
+      )
+      .appendChild(btn);
+  }
+
+  function fnDefindEvents() {
+    document
+      .getElementById("troll-btn")
+      .addEventListener("click", function (event) {
+        fnSearch(event.target.value.split(" ")[1]);
+      });
+  }
+})();
