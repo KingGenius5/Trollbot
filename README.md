@@ -1,7 +1,25 @@
 # Trollbot
 
-{"A?":"B","a":5,"d":"B","h":"www.canva.com","c":"DAETDt5GfAw","i":"LOenohrulgVGskTjgoYYMw","b":1610653853192,"A":[{"A?":"I","A":214.24443794554634,"B":108,"D":1446.4866278151148,"C":820.278458523488,"a":{"B":{"A":{"A":"MAETD9YBHWI","B":1},"B":{"A":-5.684341886080802e-14,"D":1446.4866278151148,"C":820.2784585234881}}}}],"B":1920,"C":1080}
+#### A Chrome extension that uses the Botometer API to sort between human users and twitter bots as well as blur out certain words on the Twitter timeline/feed.
 
-## Using the Blur Tool
+![BlurTool](demo.png)
+
+### Using the Blur Tool
 
 Clone the repo, go to `chrome://extensions`, enable `Developer Mode`, and load the unpacked extension.
+
+### To change what words get blurred, go into the content.js file and edit the array.
+
+```
+let word = [
+    "corona",
+    "covid",
+    "covid-19",
+    "covid19",
+    "virus",
+    "parler",
+    "trump",
+  ];
+```
+
+## Update: Botometer API integration currently unavailable. Working with Twitter Developer Account, come back soon!!!
