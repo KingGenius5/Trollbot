@@ -10,7 +10,7 @@ const botometer = new Botometer({
 });
 
 async function fnCheck() {
-  const results = await botometer.getScores(["@aandreyluiz"]);
+  const results = await botometer.getScores(["@charliekirk11"]);
 
   console.log(results);
 }

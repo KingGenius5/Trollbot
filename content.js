@@ -1,6 +1,14 @@
 setInterval(function () {
   let url = window.location.host;
-  let word = ["corona", "covid", "covid-19", "covid19", "jokowi", "virus"];
+  let word = [
+    "corona",
+    "covid",
+    "covid-19",
+    "covid19",
+    "virus",
+    "parler",
+    "trump",
+  ];
 
   if (url == "twitter.com") {
     let feed;
