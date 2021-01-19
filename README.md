@@ -21,5 +21,3 @@ let word = [
     "trump",
   ];
 ```
-
-## Update: Botometer API integration currently unavailable. Working with Twitter Developer Account, come back soon!!!
