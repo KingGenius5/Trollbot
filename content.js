@@ -28,8 +28,7 @@ setInterval(function () {
   }
 }, 1000);
 
-//Query selector to inject custom Twitter buttons
-//Needs fixing
+//Query selector to inject custom Twitter button
 
 (function () {
   function fnAddButtons() {
