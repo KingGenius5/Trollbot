@@ -1,6 +1,6 @@
 # Trollbot
 
-#### A Chrome extension that uses the Botometer API to sort between human users and twitter bots as well as blur out certain words on the Twitter timeline.
+#### A Chrome browser extension that uses the Botometer API to sort between human users and twitter bots as well as blur out certain words on the Twitter timeline.
 
 ![BlurTool](demo.png)
 
