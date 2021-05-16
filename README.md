@@ -6,7 +6,7 @@
 
 ### Using the Blur Tool
 
-Clone the repo, go to `chrome://extensions`, enable `Developer Mode`, and load the unpacked extension.
+First, clone the repo, go to `chrome://extensions`, enable `Developer Mode`, and load the unpacked extension.
 
 ### To change what words get blurred, go into the content.js file and edit the array.
 
